@@ -18,8 +18,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <div className='bat'>
         <Navbar/>
         <SearchForm/>
+        </div> 
         <div className='container'>
         <Routes>
           <Route path='/' element={<Home/>}>Home</Route>
